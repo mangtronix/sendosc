@@ -43,6 +43,14 @@ Install cmake via [Homebrew](https://brew.sh/)
 brew install cmake
 ```
 
+#### macOS - build statically (embed oscpack)
+```
+cd ~
+git clone https://github.com/mangtronix/oscpack
+cd oscpack 
+make static
+```
+
 #### Archlinux
 ##### get dependencies and prepare folder
 ````
@@ -73,7 +81,7 @@ sudo make install
 #### debian, ubuntu , macOS
 ```
 cd ~
-git clone https://github.com/yoggy/sendosc.git
+git clone https://github.com/mangtronix/sendosc.git
 cd sendosc
 cmake .
 make
